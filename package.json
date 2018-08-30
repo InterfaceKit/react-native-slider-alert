@@ -1,0 +1,46 @@
+{
+  "name": "react-native-slider-alert",
+  "version": "1.0.0",
+  "description": "A simple React Native component to show a top message, useful for ScrollView/View.",
+  "author": {
+    "name": "Antonio Moreno Valls",
+    "email": "amoreno@apsl.net"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InterfaceKit/react-native-slider-alert.git"
+  },
+  "bugs": {
+    "url": "https://github.com/InterfaceKit/react-native-slider-alert/issues"
+  },
+  "tags": [
+    "react",
+    "react-native",
+    "alert",
+    "slider-alert",
+    "ios",
+    "android"
+  ],
+  "keywords": [
+    "react",
+    "react-native",
+    "alert",
+    "slider-alert",
+    "ios",
+    "android"
+  ],
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-preset-react-native": "4.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
