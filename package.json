@@ -1,0 +1,66 @@
+{
+  "name": "react-native-slider-alert",
+  "version": "1.0.0",
+  "description": "A simple React Native component to show a top message.",
+  "author": {
+    "name": "Antonio Moreno Valls",
+    "email": "amoreno@apsl.net"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/InterfaceKit/react-native-slider-alert.git"
+  },
+  "bugs": {
+    "url": "https://github.com/InterfaceKit/react-native-slider-alert/issues"
+  },
+  "tags": [
+    "react",
+    "react-native",
+    "alert",
+    "slider-alert",
+    "ios",
+    "android"
+  ],
+  "keywords": [
+    "react",
+    "react-native",
+    "alert",
+    "slider-alert",
+    "ios",
+    "android"
+  ],
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "babel-jest": "^23.4.2",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react-native": "^4.0.0",
+    "eslint": "^5.4.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-native": "^3.2.1",
+    "jest": "^23.5.0",
+    "lint-staged": "^7.2.2",
+    "react": "^16.4.2",
+    "react-test-renderer": "^16.4.2",
+    "react-native": "0.56.0"
+  },
+  "peerDependencies": {
+    "@types/react": "^16.4.13",
+    "react": "^16.4.2",
+    "react-native": ">=0.56.0"
+  },
+  "jest": {
+    "preset": "react-native",
+    "setupTestFrameworkScriptFile": "<rootDir>/jest/setup.js",
+    "transformIgnorePatterns": [
+      "packages/(.*)/node_modules/?!(react|react-native)"
+    ]
+  }
+}
