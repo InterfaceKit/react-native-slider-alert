@@ -1,6 +1,6 @@
 {
   "name": "react-native-slider-alert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple React Native component to show a top message.",
   "author": {
     "name": "Antonio Moreno Valls",
